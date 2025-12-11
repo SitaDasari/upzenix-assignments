@@ -5,7 +5,7 @@ The submit button becomes active only when all required fields are filled correc
 
 ---
 
-## 🛠️ Commands to Run
+## Commands to Run
 
 ```bash
 # Clone the repository
@@ -22,8 +22,8 @@ npm install react-router-dom
 npm start
 ```
 
-## 🎥 Demo Video
+## Demo Video
 
 Here is the demo clip showing the complete workflow and UI of the React form:
 
-👉 [Watch Demo Video](https://drive.google.com/file/d/18V7T4M4zxMfNlvCyQTsaJnWt_ZPyxdur/view?usp=sharing)
+[Watch Demo Video](https://drive.google.com/file/d/18V7T4M4zxMfNlvCyQTsaJnWt_ZPyxdur/view?usp=sharing)
