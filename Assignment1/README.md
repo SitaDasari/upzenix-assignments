@@ -9,10 +9,10 @@ The submit button becomes active only when all required fields are filled correc
 
 ```bash
 # Clone the repository
-git clone <your-repo-link>
+git clone https://github.com/SitaDasari/upzenix-assignments.git
 
 # Go to project folder
-cd react-form
+cd upzenix-assignments/Assignment1
 
 # Install dependencies
 npm install
