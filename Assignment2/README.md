@@ -2,7 +2,7 @@
 
 ## Description
 A simple To-Do List application built using React.  
-The application allows users to add, edit, delete tasks, mark tasks as completed or undo them, filter tasks, and store data using localStorage.
+The application allows users to add, edit, delete tasks, mark tasks as completed, filter tasks as active and completed, and store data using localStorage.
 
 ---
 
