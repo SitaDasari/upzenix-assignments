@@ -13,7 +13,7 @@ The application allows users to add, edit, delete tasks, mark tasks as completed
 git clone https://github.com/SitaDasari/upzenix-assignments.git
 
 # Go into the project folder
-cd upzenix-assignments/Assignment1
+cd upzenix-assignments/Assignment2
 
 # Install dependencies
 npm install
