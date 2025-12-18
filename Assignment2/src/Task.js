@@ -15,7 +15,7 @@ function Task({
   const saveEdit = () => {
     if (text.trim() === "") return;
     editTask(task.id, text);
-    setEditingTaskId(null); // unlock editing
+    setEditingTaskId(null);
   };
 
   return (
@@ -24,7 +24,7 @@ function Task({
         type="checkbox"
         checked={task.completed}
         onChange={() => toggleTask(task.id)}
-        disabled={isEditing}
+        disabled={task.completed}
       />
 
       {isEditing ? (
@@ -41,12 +41,14 @@ function Task({
       {isEditing ? (
         <button onClick={saveEdit}>Save</button>
       ) : (
-        <button
-          onClick={() => setEditingTaskId(task.id)}
-          disabled={editingTaskId !== null}
-        >
-          Edit
-        </button>
+        !task.completed && (
+          <button
+            onClick={() => setEditingTaskId(task.id)}
+            disabled={editingTaskId !== null}
+          >
+            Edit
+          </button>
+        )
       )}
 
       <button
